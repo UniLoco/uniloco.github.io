@@ -341,7 +341,13 @@
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Designing a generalized policy to enable distinct quadrupedal robots to learn versatile locomotion skills stands as a challenging task.  
+            While existing works have proposed a range of approaches, it remains an open problem to achieve both skill generalization and platform generalization simultaneously.
+            To address this gap, we propose UniLoco, a unified locomotion framework that leverages a single policy to enable multi-skill acquisition and cross-platform deployment on real-world quadrupedal hardware. 
+            To cover morphology variations, we first collect a generalized robotic trajectory dataset exclusively in simulation. 
+            Then, we pre-train a Fourier-based motion compressor that effectively captures the shared structured motion representation of various locomotion skills. 
+            Finally, the extracted representation is incorporated as UniLoco's observation, and a parallel morphology randomization mechanism is introduced during training to enhance policy generalizability across different platforms and tasks.
+            When deployed in real-world settings, the proposed UniLoco achieves zero-shot sim-to-real transfer across two quadrupedal robots with distinct hardware properties, validating the effectiveness of our approach in both skill generalization and platform generalization.
           </p>
         </div>
       </div>
